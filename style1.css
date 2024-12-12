@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Great+Vibes&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    position: relative; 
+    min-height: 100vh;
+    width: 100%; 
+    height: 100vh; 
+    background-position: center; 
+    background-size: cover; 
+    background-image: url(images/debbie-tea-LO7rNP0LRro-unsplash.jpg); 
+    background-repeat: no-repeat; 
+}
+
+body::after {
+    content: ' '; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 1) 90%);
+    z-index: -1; 
+}
+.container{
+    width: 100%;
+}
+.logo {
+    color: #f5be32; 
+    font-family: "Cinzel", serif; 
+    padding-right: 350px;
+}
+
+.links{
+    font-family: "Cormorant SC", serif;
+    color: white;
+  
+}
+.link{
+    font-family: "Cormorant SC", serif;
+    color: black;
+    padding: 5px;
+    font-size: 17px;
+    
+}
+.divbg{
+    box-shadow: 4px;
+    color: black;
+    background-color: #f5be32;
+    border: 1px solid #f5be32;
+    margin-left: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow:  #f5be32 0px 0px 10px;
+    
+}
+.divbg :hover{
+    color: white;
+
+}
+.text{
+    text-align: center;
+
+}
+.p1{
+    font-family: "Great Vibes", cursive;
+    color: #ffffff;
+    font-size: 20px;
+}
+.paragr{
+    font-family: "Great Vibes", cursive;
+    color: #ffffff;
+    font-size: 20px;
+}
+.titre{
+    font-family: "Cinzel", serif;
+    color: #f3d382 ;
+    font-size: 60px;
+    
+}
+.p2{
+    font-family: "DM Sans", sans-serif;
+    color: #d9d9d9;
+    font-size: 12px;
+    width: 80%;
+    padding-left: 170px;
+   
+   
+}
+.parag{
+    width: 90%;
+    padding-left: 100px;
+
+}
+
+.link2{
+    font-family: "Cormorant SC", serif;
+    color: black;
+    padding: 5px;
+    font-size: 23px;
+    
+}
+.divbg2{
+    box-shadow: 4px;
+    color: black;
+    background-color: #f5be32;
+    border: 1px solid #f5be32;
+    margin-left: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow:  #f5be32 0px 0px 10px;
+    width: 20%;
+    text-align: center;
+    margin-left: 500px;
+    
+}
+.divbg2 :hover{
+    color: white;
+
+}
+.section2{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 1) ;
+}
+.titre2{
+    font-family: "Cinzel", serif;
+    color: #f3d382 ;
+    font-size: 30px;
+    
+}
+.divsadow{
+    box-shadow:  #f5be32 0px 0px 70px;
+  
+
+}
+.divbg3{
+    margin-top: 20px;
+    box-shadow: 1px;
+    color: #f5be32;
+    border: 5px solid #f5be32;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow:  #f5be32 0px 0px 20px;
+    width: 80%;
+    text-align: center;
+    
+}
+.link3{
+    font-family: "Cormorant SC", serif;
+    color: #f5be32;
+    padding: 2px;
+    font-size: 19px;
+    
+}
+.img{
+   
+    width: 50%;
+}
+.divrecette{
+    padding: 0;
+    margin: 0;
+}
+.maForm{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px #f5be32;
+    background-color: black;
+    padding: 40px;
+    overflow:hidden;
+
+}
+
+.maForm:hover{
+    animation: colorChange 2s linear infinite alternate;
+}
+
+
+@keyframes colorChange {
+    0% {
+        box-shadow: 0 0 50px red ;
+    }
+    50% {
+        box-shadow:0 0 50px #e7cd8d ;
+    }
+    100% {
+        box-shadow:0 0 50px  #ffb700;
+    }
+}
+.form-maForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+h2{
+    font-size: 30px;
+    color: #f5be32;
+    text-align: center;
+    font-family: "Cinzel", serif; 
+}
+.input-group{
+    position:relative ;
+    margin: 30px 0;
+    border-bottom: 2px solid #f5be32;
+    
+}
+.input-group label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #f5be32;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-group input{
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #f5be32;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.input-group input:focus~label,.input-group input:valid~label{
+    top:-5px;
+}
+.remember{
+    margin: -5px 0 15px 5px;
+}
+.remember label{
+    color:#f5be32;
+    font-size: 14px;
+}
+.remember label input{
+    accent-color: #f5be32;
+}
+button{
+    position:relative;
+    width: 100%;
+    height: 40px;
+    background:#f5be32 ;
+    box-shadow: 0 0 10px #f5be32 ;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+
+}
+.signUp-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px ;
+    display: flex;
+    justify-content: center;
+   
+}
+.signUp-link p{
+    color: #f5be32 ;
+}
+.signUp-link  a{ 
+    text-decoration: none;
+    font-weight: 500;
+}
+.signUp-link  a:hover{
+    text-decoration: underline;
+}
+.div1{
+    margin: 0;
+    padding: 0;
+}
+.div1 img{
+    padding-left: 400px;
+}
+h1{
+    font-size: 30px;
+    color: #f3d382 ;
+    text-align: center;
+    font-family: "Cinzel", serif;  
+}
+h5{
+  
+    color: #f3d382 ;
+    text-align: center;
+    font-family: "Cinzel", serif; 
+}
+.recette {
+    margin: 15px;
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.recette img {
+   
+    width: 100%;
+    height: auto;
+}
+
+.recette div {
+    
+    padding: 10px;
+    justify-content: center;
+}
+
+.recette h5 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: rgb(23, 22, 22);
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }

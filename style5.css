@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Great+Vibes&display=swap');
+body{
+    font-family: "Cinzel", serif; 
+    background-color:#f5be32 ;
+    
+}
+
+ 
+.header-title {
+    margin-bottom: 0; 
+}
+.div1{
+    margin: 0;
+    padding: 0;
+}
+.link:hover{
+    background-color:#f5be32 ;
+}
+.navbar {
+    border-radius: 0; 
+}
+.logo {
+    color: #f5be32; 
+    font-family: "Cinzel", serif; 
+    padding-right: 350px;
+    padding-top: 8px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; 
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff; 
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; 
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.img{
+    width: 20%;
+}
+.recette {
+    margin: 15px;
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.recette img {
+   
+    width: 100%;
+    height: auto;
+}
+
+.recette div {
+    
+    padding: 10px;
+    justify-content: center;
+}
+
+.recette h5 {
+    margin-top: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
