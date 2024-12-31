@@ -4,5 +4,5 @@
 - Partie administrateur : permet aux administrateurs de soumettre de nouvelles recettes et de gérer celles existantes.
 Ce projet utilise des technologies web modernes pour assurer une expérience utilisateur fluide et intuitive, tout en permettant une gestion facile des recettes.
 
-[lebongout.PNG…]
+
 
